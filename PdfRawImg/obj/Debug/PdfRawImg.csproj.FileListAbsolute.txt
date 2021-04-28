@@ -1,0 +1,7 @@
+D:\tt\core\PdfRawImg\Debug\PdfRawImg.exe
+D:\tt\core\PdfRawImg\Debug\PdfRawImg.pdb
+D:\tt\core\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.csprojAssemblyReference.cache
+D:\tt\core\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.csproj.CoreCompileInputs.cache
+D:\tt\core\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.csproj.CopyComplete
+D:\tt\core\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.exe
+D:\tt\core\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.pdb
