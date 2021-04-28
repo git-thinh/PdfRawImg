@@ -7,6 +7,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Text;
 using System.Web;
@@ -62,7 +63,22 @@ namespace PdfRawImg
                         key = request.QueryString["key"].Value;
                         page = request.QueryString["page"].Value;
                         string imgName = string.Format("{0}-{1}", key, page);
-                        if (m_files.ContainsKey(imgName)) {
+                        if (m_files.ContainsKey(imgName))
+                        {
+                            if (m_files.TryGetValue(imgName, out buffer) && buffer.Length > 0)
+                            {
+                                response.Status = HttpStatusCode.OK;
+                                response.ContentType = "image/jpeg";
+                                response.Body.Write(buffer, 0, buffer.Length);
+                            }
+                        }
+                        break;
+                    case "/clear":
+                        key = request.QueryString["key"].Value;
+                        if (!string.IsNullOrEmpty(key))
+                        {
+                            var arr = m_files.Keys.Where(x => x.Contains(key)).ToArray();
+
                             if (m_files.TryGetValue(imgName, out buffer) && buffer.Length > 0)
                             {
                                 response.Status = HttpStatusCode.OK;
