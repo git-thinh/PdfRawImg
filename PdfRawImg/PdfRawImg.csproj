@@ -52,6 +52,10 @@
       <Project>{438914b6-5d1c-482c-b942-5c0e057eef6f}</Project>
       <Name>PdfiumViewer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\base20\TeamDev.Redis.Client\TeamDev.Redis.Client.csproj">
+      <Project>{d24fae10-acac-4e17-a075-7e820b3fbcba}</Project>
+      <Name>TeamDev.Redis.Client</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

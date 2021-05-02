@@ -5,3 +5,10 @@ D:\tt\core\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.csproj.CoreCompileInputs.cach
 D:\tt\core\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.csproj.CopyComplete
 D:\tt\core\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.exe
 D:\tt\core\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.pdb
+C:\tt\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.csprojAssemblyReference.cache
+C:\tt\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.csproj.CoreCompileInputs.cache
+C:\tt\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.exe
+C:\tt\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.pdb
+C:\tt\PdfRawImg\Debug\PdfRawImg.exe
+C:\tt\PdfRawImg\Debug\PdfRawImg.pdb
+C:\tt\PdfRawImg\PdfRawImg\obj\Debug\PdfRawImg.csproj.CopyComplete
